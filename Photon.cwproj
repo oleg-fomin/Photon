@@ -32,9 +32,6 @@
     <line_numbers>False</line_numbers>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="EFOCUS.CLW">
-      <Generated>true</Generated>
-    </Compile>
     <Compile Include="Photon.clw">
       <Generated>true</Generated>
     </Compile>
@@ -54,40 +51,12 @@
       <Generated>true</Generated>
     </Compile>
     <Compile Include="_photon_.clw" />
-    <None Include="BuildNumber.BN" />
   </ItemGroup>
   <ItemGroup>
     <FileDriver Include="ASCII" />
     <FileDriver Include="BASIC" />
     <FileDriver Include="BASIC" />
     <FileDriver Include="TOPSPEED" />
-    <Library Include="16px.png" />
-    <Library Include="add.ico" />
-    <Library Include="add_20.ico" />
-    <Library Include="add_24.ico" />
-    <Library Include="add_32.ico" />
-    <Library Include="B10.png" />
-    <Library Include="B20.png" />
-    <Library Include="B30.png" />
-    <Library Include="B40.png" />
-    <Library Include="B50.png" />
-    <Library Include="B60.png" />
-    <Library Include="B70.png" />
-    <Library Include="B80.png" />
-    <Library Include="B90.png" />
-    <Library Include="bg10.png" />
-    <Library Include="bg100.png" />
-    <Library Include="bg20.png" />
-    <Library Include="bg30.png" />
-    <Library Include="bg40.png" />
-    <Library Include="bg50.png" />
-    <Library Include="bg60.png" />
-    <Library Include="bg70.png" />
-    <Library Include="bg80.png" />
-    <Library Include="bg90.png" />
-    <Library Include="DarkGradient.jpg" />
-    <Library Include="File.png" />
-    <Library Include="Hand.cur" />
     <Library Include="hot_add_32x32.png" />
     <Library Include="Hot_calendar_32x32.png" />
     <Library Include="Hot_Cancel_32x32.png" />
@@ -105,74 +74,7 @@
     <Library Include="Hot_Ok_32x32.png" />
     <Library Include="Hot_Select_32x32.png" />
     <Library Include="Hot_View_32x32.png" />
-    <Library Include="magnify.png" />
-    <Library Include="Master.png" />
-    <Library Include="MasterEBG.png" />
-    <Library Include="MasterLine.png" />
-    <Library Include="Master_Disabled.png" />
-    <Library Include="Master_Normal.png" />
-    <Library Include="Master_ReadOnly.png" />
-    <Library Include="Master_Required.png" />
-    <Library Include="md5.lib" />
-    <Library Include="md5.lib" />
-    <Library Include="milpat.jpg" />
-    <Library Include="MiniMorpho.png" />
-    <Library Include="Noise8x.jpg" />
-    <Library Include="null.png" />
-    <Library Include="pat5.jpg" />
     <Library Include="Photon.EXE.manifest" />
-    <Library Include="Progress.jpg" />
-    <Library Include="progress.png" />
-    <Library Include="rbg10.png" />
-    <Library Include="rbg100.png" />
-    <Library Include="rbg20.png" />
-    <Library Include="rbg30.png" />
-    <Library Include="rbg40.png" />
-    <Library Include="rbg50.png" />
-    <Library Include="rbg60.png" />
-    <Library Include="rbg70.png" />
-    <Library Include="rbg80.png" />
-    <Library Include="rbg90.png" />
-    <Library Include="rwg10.png" />
-    <Library Include="rwg100.png" />
-    <Library Include="rwg20.png" />
-    <Library Include="rwg30.png" />
-    <Library Include="rwg40.png" />
-    <Library Include="rwg50.png" />
-    <Library Include="rwg60.png" />
-    <Library Include="rwg70.png" />
-    <Library Include="rwg80.png" />
-    <Library Include="rwg90.png" />
-    <Library Include="SHA1.LIB" />
-    <Library Include="SHA1.LIB" />
-    <Library Include="SHA256.LIB" />
-    <Library Include="SHA256.LIB" />
-    <Library Include="Tag.png" />
-    <Library Include="transparent.png" />
-    <Library Include="W1.png" />
-    <Library Include="W10.png" />
-    <Library Include="W20.png" />
-    <Library Include="W30.png" />
-    <Library Include="W40.png" />
-    <Library Include="W5.png" />
-    <Library Include="w50.png" />
-    <Library Include="w60.png" />
-    <Library Include="w70.png" />
-    <Library Include="w80.png" />
-    <Library Include="w90.png" />
-    <Library Include="wg10.png" />
-    <Library Include="wg100.png" />
-    <Library Include="wg20.png" />
-    <Library Include="wg30.png" />
-    <Library Include="wg40.png" />
-    <Library Include="wg50.png" />
-    <Library Include="wg60.png" />
-    <Library Include="wg70.png" />
-    <Library Include="wg80.png" />
-    <Library Include="wg90.png" />
-    <Library Include="wp.jpg" />
-    <Library Include="wp3.jpg" />
-    <Library Include="wp4.jpg" />
   </ItemGroup>
   <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
 </Project>
